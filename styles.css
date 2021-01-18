@@ -1,0 +1,39 @@
+#menutoggle1 {
+    width: 100%;
+    padding: 50px 0;
+    text-align: center;
+    background-color: rgb(177, 177, 177);
+    margin-top: 20px;
+  }
+  #menutoggle2 {
+    width: 100%;
+    padding: 50px 0;
+    text-align: center;
+    background-color: rgb(177, 177, 177);
+    margin-top: 20px;
+  }
+  #menutoggle3 {
+    width: 100%;
+    padding: 50px 0;
+    text-align: center;
+    background-color: rgb(177, 177, 177);
+    margin-top: 20px;
+  }
+  #menutoggle4 {
+    width: 100%;
+    padding: 50px 0;
+    text-align: center;
+    background-color: rgb(177, 177, 177);
+    margin-top: 20px;
+  }
+  #menutoggle5 {
+    width: 100%;
+    padding: 50px 0;
+    text-align: center;
+    background-color: rgb(177, 177, 177);
+    margin-top: 20px;
+  }
+  
+.button100percent {
+    width: 100%;
+}

@@ -1,0 +1,75 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>game</title>
+  <meta name="description" content="game">
+  <meta name="author" content="SitePoint">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.3/build/pure-min.css" integrity="sha384-cg6SkqEOCV1NbJoCu11+bm0NvBRc8IYLRGXkmNrqUBfTjmMYwNKPWBTIKyw9mHNJ" crossorigin="anonymous">
+
+
+</head>
+
+<body>
+  
+  
+  <button class="pure-botton button100percent" onclick="playtestmode()">Click to increase speed x10 (Playtesting mode)</button>
+
+    <button class="pure-button button100percent" onclick="menutoggle1()">Function</button><br>
+    <div id="menutoggle1">
+        Base Function:
+        \(y = a*log_b(cx)+d\)<br>
+        <p id="functionvalue"></p>
+        <p id="pps"></p>
+        <p id="points"></p>
+    </div><br>
+    
+    <button class="pure-button button100percent" onclick="menutoggle3()">Addition</button><br>
+    <div id="menutoggle3">
+        The "Addition" tab allows you to change the value of variable \(d\)<br>
+        <button class="pure-botton" onclick="additionupgrade1()" id="addup1"></button><br>
+        <button class="pure-botton" onclick="additionupgrade2()" id="addup2"></button><br>
+        <button class="pure-botton" onclick="additionupgrade3()" id="addup3"></button> 
+    </div><br>
+
+    <button class="pure-button button100percent" onclick="menutoggle4()">Variable</button><br>
+    <div id="menutoggle4">
+      The "Variable" tab allows you to change the value of variable \(c\)<br>
+      <button class="pure-botton" onclick="varupgrade1()" id="varup1"></button><br>
+      <button class="pure-botton" onclick="varupgrade2()" id="varup2"></button><br>
+      <button class="pure-botton" onclick="varupgrade3()" id="varup3"></button> 
+    </div><br>
+
+    <button class="pure-button button100percent" onclick="menutoggle2()">Constant</button><br>
+    <div id="menutoggle2">
+        The "Constant" tab allows you to change the value of variable \(a\)<br>
+        <button class="pure-botton" onclick="constantupgrade1()" id="conup1"></button><br>
+        <button class="pure-botton" onclick="constantupgrade2()" id="conup2"></button><br>
+        <button class="pure-botton" onclick="constantupgrade3()" id="conup3"></button> 
+    </div><br>
+
+    <button class="pure-button button100percent" onclick="menutoggle5()">Exponent</button><br>
+    <div id="menutoggle5">
+      The "Exponent" tab allows you to change the value of variable \(b\), which starts at 10 and goes down.<br>
+      <button class="pure-botton" onclick="expupgrade1()" id="expup1"></button><br>
+      <button class="pure-botton" onclick="expupgrade2()" id="expup2"></button><br>
+      <button class="pure-botton" onclick="expupgrade3()" id="expup3"></button> 
+    </div><br>
+
+    <script src="main.js"></script>
+    <script>
+    MathJax = {
+      tex: {
+        inlineMath: [['$$', '$$'], ['\\(', '\\)']]
+      }
+    };
+    </script>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+
+</body>
+</html>
